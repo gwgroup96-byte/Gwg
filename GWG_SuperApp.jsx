@@ -1,14 +1,6 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import * as XLSX from "xlsx";
 
-// ─────────────────────────────────────────────
-//  FIREBASE CONFIG - Realtime Database untuk sinkronisasi lintas perangkat
-// ─────────────────────────────────────────────
-// PENTING: Ganti dengan konfigurasi Firebase project Anda
-// 1. Buka https://console.firebase.google.com
-// 2. Buat project baru → Tambah app web → Salin config di bawah
-// 3. Aktifkan Realtime Database → mulai dalam test mode
-// 4. Aktifkan Authentication → Google Sign-In
 const FIREBASE_CONFIG = {
   apiKey: "AIzaSyC1_xsPD3xIaktiMnHwwyXFHQY5-8_NWuI",
   authDomain: "gwgg-52e15.firebaseapp.com",
